@@ -1,0 +1,181 @@
+Total number of Simulations: 5
+------------------------------------------------------------------------
+
+
+Processing all Simulations via multithreading(This might take a while)
+------------------------------------------------------------------------
+
+Ran a simulation with (10,25) UNL range
+Ran a simulation with (5,20) UNL range
+Ran a simulation with (15,30) UNL range
+Ran a simulation with (20,35) UNL range
+Ran a simulation with (25,40) UNL range
+
+Simulation 1 : 
+------------------------------------------------------------------------
+
+INPUT VALUES
+
+1) Network Size : 100
+2) Malicious Servers : 15
+3) Outbound Links : 10
+4) (Min UNL size, Max UNL size) : (5, 20)
+5) (Min e2c latency, Max e2c latency) : (5, 50)
+6) (Min c2c latency, Max c2c latency) : (5, 200)
+
+RUNNING SIMULATION
+
+1) Initialing Servers
+2) Initialing Links
+3) Broadcasting initial messages
+4) 236 Events created and 2000 Messages created
+5) Running Ripple Consensus protocol 
+
+Time : 100 ms  Servers+/Servers- : 53/47
+Time : 200 ms  Servers+/Servers- : 49/51
+Time : 300 ms  Servers+/Servers- : 29/71
+Time : 400 ms  Servers+/Servers- : 20/80
+
+PERFORMANCE MEASURES
+
+1) Consensus outcome: Majority of servers disagree on the transaction
+2) Positive servers: 19
+3) Negative servers: 81
+4) Consensus time : Consensus reached in 446 ms with 6603 messages on the wire.
+5) Message rate : An average server sent 159 messages.
+
+
+Simulation 2 : 
+------------------------------------------------------------------------
+
+INPUT VALUES
+
+1) Network Size : 100
+2) Malicious Servers : 15
+3) Outbound Links : 10
+4) (Min UNL size, Max UNL size) : (10, 25)
+5) (Min e2c latency, Max e2c latency) : (5, 50)
+6) (Min c2c latency, Max c2c latency) : (5, 200)
+
+RUNNING SIMULATION
+
+1) Initialing Servers
+2) Initialing Links
+3) Broadcasting initial messages
+4) 231 Events created and 2000 Messages created
+5) Running Ripple Consensus protocol 
+
+Time : 100 ms  Servers+/Servers- : 50/50
+Time : 200 ms  Servers+/Servers- : 43/57
+Time : 300 ms  Servers+/Servers- : 30/70
+
+PERFORMANCE MEASURES
+
+1) Consensus outcome: Majority of servers disagree on the transaction
+2) Positive servers: 17
+3) Negative servers: 83
+4) Consensus time : Consensus reached in 345 ms with 6882 messages on the wire.
+5) Message rate : An average server sent 119 messages.
+
+
+Simulation 3 : 
+------------------------------------------------------------------------
+
+INPUT VALUES
+
+1) Network Size : 100
+2) Malicious Servers : 15
+3) Outbound Links : 10
+4) (Min UNL size, Max UNL size) : (15, 30)
+5) (Min e2c latency, Max e2c latency) : (5, 50)
+6) (Min c2c latency, Max c2c latency) : (5, 200)
+
+RUNNING SIMULATION
+
+1) Initialing Servers
+2) Initialing Links
+3) Broadcasting initial messages
+4) 232 Events created and 2000 Messages created
+5) Running Ripple Consensus protocol 
+
+Time : 100 ms  Servers+/Servers- : 50/50
+Time : 200 ms  Servers+/Servers- : 50/50
+Time : 300 ms  Servers+/Servers- : 47/53
+Time : 400 ms  Servers+/Servers- : 32/68
+
+PERFORMANCE MEASURES
+
+1) Consensus outcome: Majority of servers disagree on the transaction
+2) Positive servers: 19
+3) Negative servers: 81
+4) Consensus time : Consensus reached in 492 ms with 6801 messages on the wire.
+5) Message rate : An average server sent 175 messages.
+
+
+Simulation 4 : 
+------------------------------------------------------------------------
+
+INPUT VALUES
+
+1) Network Size : 100
+2) Malicious Servers : 15
+3) Outbound Links : 10
+4) (Min UNL size, Max UNL size) : (20, 35)
+5) (Min e2c latency, Max e2c latency) : (5, 50)
+6) (Min c2c latency, Max c2c latency) : (5, 200)
+
+RUNNING SIMULATION
+
+1) Initialing Servers
+2) Initialing Links
+3) Broadcasting initial messages
+4) 236 Events created and 2000 Messages created
+5) Running Ripple Consensus protocol 
+
+Time : 100 ms  Servers+/Servers- : 50/50
+Time : 200 ms  Servers+/Servers- : 55/45
+Time : 300 ms  Servers+/Servers- : 55/45
+Time : 400 ms  Servers+/Servers- : 47/53
+Time : 500 ms  Servers+/Servers- : 33/67
+
+PERFORMANCE MEASURES
+
+1) Consensus outcome: Majority of servers disagree on the transaction
+2) Positive servers: 19
+3) Negative servers: 81
+4) Consensus time : Consensus reached in 557 ms with 6790 messages on the wire.
+5) Message rate : An average server sent 197 messages.
+
+
+Simulation 5 : 
+------------------------------------------------------------------------
+
+INPUT VALUES
+
+1) Network Size : 100
+2) Malicious Servers : 15
+3) Outbound Links : 10
+4) (Min UNL size, Max UNL size) : (25, 40)
+5) (Min e2c latency, Max e2c latency) : (5, 50)
+6) (Min c2c latency, Max c2c latency) : (5, 200)
+
+RUNNING SIMULATION
+
+1) Initialing Servers
+2) Initialing Links
+3) Broadcasting initial messages
+4) 244 Events created and 2000 Messages created
+5) Running Ripple Consensus protocol 
+
+Time : 100 ms  Servers+/Servers- : 50/50
+Time : 200 ms  Servers+/Servers- : 57/43
+Time : 300 ms  Servers+/Servers- : 69/31
+Time : 400 ms  Servers+/Servers- : 75/25
+
+PERFORMANCE MEASURES
+
+1) Consensus outcome: Majority of Servers agree on the transaction
+2) Positive servers: 81
+3) Negative servers: 19
+4) Consensus time : Consensus reached in 435 ms with 6854 messages on the wire.
+5) Message rate : An average server sent 156 messages.

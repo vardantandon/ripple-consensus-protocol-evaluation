@@ -1,0 +1,39 @@
+INPUT VALUES
+
+1) Network Size : 100
+2) Malicious Servers : 15
+3) Outbound Links : 10
+4) (Min UNL size, Max UNL size, UNL threshold) : (20, 30, 10)
+5) (Min e2c latency, Max e2c latency) : (5, 50)
+6) (Min c2c latency, Max c2c latency) : (5, 200)
+
+RUNNING SIMULATION
+
+1) Initialing Servers
+2) Initialing Links
+3) Network Created 
+
+--------------------------------------------------------------
+
+CHECKING UNL OVERLAP CONDITION (TEST 1)
+--------------------------------------------------------------
+
+Possibility of fork: Insufficient UNL overlap between servers 0 and 5
+
+UNL of server 0 : [54, 41, 43, 55, 96, 22, 88, 8, 86, 1, 76, 18, 15, 77, 51, 84, 29, 64, 10, 58, 5, 21, 95, 30, 42]
+
+UNL of server 5 : [90, 76, 94, 15, 50, 65, 31, 79, 10, 78, 83, 93, 32, 68, 35, 82, 29, 89, 59, 66, 9, 46]
+
+UNL overlap [10, 76, 29, 15]
+--------------------------------------------------------------
+
+CHECKING UNL OVERLAP CONDITION (TEST 1)
+--------------------------------------------------------------
+
+Possibility of fork: Insufficient UNL overlap between servers 0 and 5
+
+UNL of server 0 : [54, 41, 43, 55, 96, 22, 88, 8, 86, 1, 76, 18, 15, 77, 51, 84, 29, 64, 10, 58, 5, 21, 95, 30, 42]
+
+UNL of server 5 : [90, 76, 94, 15, 50, 65, 31, 79, 10, 78, 83, 93, 32, 68, 35, 82, 29, 89, 59, 66, 9, 46]
+
+UNL overlap [10, 76, 29, 15]
